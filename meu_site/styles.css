@@ -34,62 +34,33 @@ body{
 }
 
 h1{
+    font-size: 50px;
     text-align: center;
-    color: black;
 }
 
-form{
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
 }
 
-form legend{
-    padding: 0 10px;
-    font-weight: bold;
-    color: #333;
+p{
+    font-size: 20px;
 }
 
-form fieldset{
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
+.menu-inicio{
+    width: 1500px; 
+    height: auto; 
+    border: 2px solid #000; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    border-radius: 15px;
+    margin: 50px auto;
 }
 
-form label{
-    display: block;
-    margin-bottom: 8px;
-    color: #000
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
 }
-
-form input[type="text"]
-form input[type="email"]
-form input[type="mensagem"]
-
-form select,
-form textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-
-}
-
-form button{
-    background-color: green;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-form button:hover{
-    background-color: #ffffff;
-}
-
